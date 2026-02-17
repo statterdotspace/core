@@ -20,7 +20,8 @@ export default defineConfig(
       },
       sourceType: "commonjs",
       parserOptions: {
-        projectService: true
+        projectService: true,
+        tsconfigRootDir: import.meta.dirname
       }
     }
   },
