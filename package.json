@@ -1,0 +1,36 @@
+{
+  "name": "core",
+  "version": "1.0.0",
+  "license": "MIT",
+  "private": "true",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "prettier",
+    "tsconfig",
+    "eslint"
+  ],
+  "author": {
+    "name": "Statter 🚀",
+    "url": "https://github.com/statterdotspace"
+  },
+  "bugs": {
+    "url": "https://github.com/statterdotspace/core/issues"
+  },
+  "homepage": "https://github.com/statterdotspace/core",
+  "repository": {
+    "url": "https://github.com/statterdotspace/core"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "husky": "^9.1.7",
+    "lint-staged": "^16.2.7",
+    "prettier": "^3.8.1",
+    "shx": "^0.4.0",
+    "tsup": "^8.5.1",
+    "typescript": "^5.9.3"
+  }
+}

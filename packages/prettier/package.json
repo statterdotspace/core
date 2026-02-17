@@ -1,0 +1,55 @@
+{
+  "name": "@statter/prettier",
+  "type": "module",
+  "version": "1.0.0",
+  "license": "MIT",
+  "description": "prettier config",
+  "scripts": {
+    "build": "tsup"
+  },
+  "keywords": [
+    "prettier"
+  ],
+  "author": {
+    "name": "Statter 🚀",
+    "url": "https://github.com/statterdotspace"
+  },
+  "bugs": {
+    "url": "https://github.com/statterdotspace/core/issues"
+  },
+  "homepage": "https://github.com/statterdotspace/core",
+  "repository": {
+    "url": "https://github.com/statterdotspace/core"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "exports": {
+    ".": {
+      "import": {
+        "types": "./dist/esm/index.d.ts",
+        "default": "./dist/esm/index.js"
+      },
+      "require": {
+        "types": "./dist/cjs/index.d.cts",
+        "default": "./dist/cjs/index.cjs"
+      }
+    }
+  },
+  "main": "dist/cjs/index.cjs",
+  "module": "dist/esm/index.js",
+  "types": "dist/esm/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "devDependencies": {
+    "tsup": "^8.5.1",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "prettier": "^3.8.1"
+  },
+  "peerDependencies": {
+    "prettier": "^3.8.1"
+  }
+}

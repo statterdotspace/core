@@ -1,0 +1,30 @@
+{
+  "name": "@statter/tsconfig",
+  "version": "1.0.0",
+  "license": "MIT",
+  "description": "typescript config",
+  "keywords": [
+    "typescript",
+    "tsconfig"
+  ],
+  "author": {
+    "name": "Statter 🚀",
+    "url": "https://github.com/statterdotspace"
+  },
+  "bugs": {
+    "url": "https://github.com/statterdotspace/core/issues"
+  },
+  "homepage": "https://github.com/statterdotspace/core",
+  "repository": {
+    "url": "https://github.com/statterdotspace/core"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "tsconfig.node.json"
+  ],
+  "peerDependencies": {
+    "typescript": "^5"
+  }
+}
