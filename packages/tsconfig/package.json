@@ -22,7 +22,8 @@
     "access": "public"
   },
   "files": [
-    "tsconfig.node.json"
+    "tsconfig.node.json",
+    "tsconfig.react.json"
   ],
   "peerDependencies": {
     "typescript": "^5"

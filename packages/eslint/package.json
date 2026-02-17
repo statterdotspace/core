@@ -1,0 +1,56 @@
+{
+  "name": "@statter/eslint",
+  "version": "1.0.0",
+  "description": "eslint config",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsup"
+  },
+  "keywords": [
+    "eslint"
+  ],
+  "author": {
+    "name": "Statter 🚀",
+    "url": "https://github.com/statterdotspace"
+  },
+  "bugs": {
+    "url": "https://github.com/statterdotspace/core/issues"
+  },
+  "homepage": "https://github.com/statterdotspace/core",
+  "repository": {
+    "url": "https://github.com/statterdotspace/core"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "exports": {
+    ".": {
+      "import": {
+        "types": "./dist/esm/index.d.mts",
+        "default": "./dist/esm/index.mjs"
+      },
+      "require": {
+        "types": "./dist/cjs/index.d.ts",
+        "default": "./dist/cjs/index.js"
+      }
+    }
+  },
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.mjs",
+  "types": "dist/esm/index.d.mts",
+  "files": [
+    "dist"
+  ],
+  "devDependencies": {
+    "tsup": "^8.5.1",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "@eslint/eslintrc": "^3.3.3",
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.0.0",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-prettier": "^5.5.5",
+    "typescript-eslint": "^8.56.0"
+  }
+}
