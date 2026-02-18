@@ -23,7 +23,8 @@
   },
   "files": [
     "tsconfig.node.json",
-    "tsconfig.react.json"
+    "tsconfig.react.json",
+    "tsconfig.lib.json"
   ],
   "peerDependencies": {
     "typescript": "^5"
